@@ -64,6 +64,7 @@ body {
 .cover {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap-reverse;
     margin-top: 50px;
     margin-bottom: 50px;
     /* background-color: antiquewhite; */
@@ -71,6 +72,8 @@ body {
 
 .cover-left {
     flex: 0 1 26%;
+
+    margin-bottom: 50px;
     /* background-color: green; */
 }
 
@@ -200,13 +203,14 @@ body {
     justify-content: center;
     align-items: center;
     width: 45%;
-    height: 100px;
     border-radius: 10px;
     color: white;
-    padding: 25px 0;
+    padding: 50px 0;
+    flex-flow: row wrap;
 }
 .cta-text {
-    width: 50%;
+    width: 60%;
+    margin-left: 25px;
 }
 
 .cta-title {
@@ -226,6 +230,7 @@ body {
     font-weight: 600;
     width: 80px;
     height: 25px;
+    margin-right: 25px;
 }
 
 /* footer */
