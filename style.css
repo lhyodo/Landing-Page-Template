@@ -202,7 +202,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 33%;
     border-radius: 10px;
     color: white;
     padding: 50px 0;
@@ -245,3 +245,5 @@ body {
     color: white;
     text-align: center;
 }
+
+/* test comment */
